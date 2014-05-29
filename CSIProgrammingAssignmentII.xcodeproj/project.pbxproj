@@ -10,6 +10,7 @@
 		9493F5CF1936A3F7003793DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9493F5CE1936A3F7003793DF /* main.cpp */; };
 		9493F5D11936A3F7003793DF /* CSIProgrammingAssignmentII.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9493F5D01936A3F7003793DF /* CSIProgrammingAssignmentII.1 */; };
 		9493F5D91936A50A003793DF /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9493F5D71936A50A003793DF /* Room.cpp */; };
+		94A0323B1936C11900BA3EF7 /* Paint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94A032391936C11900BA3EF7 /* Paint.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		9493F5D01936A3F7003793DF /* CSIProgrammingAssignmentII.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CSIProgrammingAssignmentII.1; sourceTree = "<group>"; };
 		9493F5D71936A50A003793DF /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
 		9493F5D81936A50A003793DF /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		94A032391936C11900BA3EF7 /* Paint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paint.cpp; sourceTree = "<group>"; };
+		94A0323A1936C11900BA3EF7 /* Paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paint.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				9493F5D71936A50A003793DF /* Room.cpp */,
 				9493F5D81936A50A003793DF /* Room.h */,
 				9493F5D01936A3F7003793DF /* CSIProgrammingAssignmentII.1 */,
+				94A032391936C11900BA3EF7 /* Paint.cpp */,
+				94A0323A1936C11900BA3EF7 /* Paint.h */,
 			);
 			path = CSIProgrammingAssignmentII;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A0323B1936C11900BA3EF7 /* Paint.cpp in Sources */,
 				9493F5D91936A50A003793DF /* Room.cpp in Sources */,
 				9493F5CF1936A3F7003793DF /* main.cpp in Sources */,
 			);
@@ -231,6 +237,7 @@
 				9493F5D61936A3F7003793DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
