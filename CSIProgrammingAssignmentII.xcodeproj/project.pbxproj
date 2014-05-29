@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9493F5CF1936A3F7003793DF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9493F5CE1936A3F7003793DF /* main.cpp */; };
 		9493F5D11936A3F7003793DF /* CSIProgrammingAssignmentII.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9493F5D01936A3F7003793DF /* CSIProgrammingAssignmentII.1 */; };
+		9493F5D91936A50A003793DF /* Room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9493F5D71936A50A003793DF /* Room.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		9493F5CB1936A3F7003793DF /* CSIProgrammingAssignmentII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSIProgrammingAssignmentII; sourceTree = BUILT_PRODUCTS_DIR; };
 		9493F5CE1936A3F7003793DF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9493F5D01936A3F7003793DF /* CSIProgrammingAssignmentII.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CSIProgrammingAssignmentII.1; sourceTree = "<group>"; };
+		9493F5D71936A50A003793DF /* Room.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Room.cpp; sourceTree = "<group>"; };
+		9493F5D81936A50A003793DF /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				9493F5CE1936A3F7003793DF /* main.cpp */,
+				9493F5D71936A50A003793DF /* Room.cpp */,
+				9493F5D81936A50A003793DF /* Room.h */,
 				9493F5D01936A3F7003793DF /* CSIProgrammingAssignmentII.1 */,
 			);
 			path = CSIProgrammingAssignmentII;
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9493F5D91936A50A003793DF /* Room.cpp in Sources */,
 				9493F5CF1936A3F7003793DF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
